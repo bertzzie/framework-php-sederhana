@@ -16,7 +16,7 @@ class Router {
         if (empty($this->urlParams["controller"])) {
             $this->controller = $this->Controller_Namespace . "Home";
         } else {
-            $this->controller = $this->Controller_Namespace . $this->controller;
+            $this->controller = $this->Controller_Namespace . $this->urlParams["controller"];
         }
 
         if (empty($this->urlParams["action"])) {
