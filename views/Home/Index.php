@@ -8,7 +8,12 @@
 
     <tbody>
         <tr>
-            <td colspan="2">Kosong</td>
+            <?php foreach ($viewModel as $pengguna): ?>
+                <tr>
+                    <td><?php echo $pengguna->nama ?></td>
+                    <td><?php echo $pengguna->email ?></td>
+                </tr>
+            <?php endforeach ?>
         </tr>
     </tbody>
 </table>
