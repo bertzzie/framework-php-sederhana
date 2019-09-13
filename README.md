@@ -23,7 +23,7 @@ Jika anda memilih mengcloning repository ini? Silahkan ikuti baris perintah ini:
 - Untuk windows
 
   C:\Users> cd C:\xampp\htdocs
-  C:\Userd> git clone https://github.com/bertzzie/framework-php-sederhana.git myapp
+  C:\Users> git clone https://github.com/bertzzie/framework-php-sederhana.git myapp
 
 
 Jika webserver anda telah siap, buka browser anda dan masukan url: http://localhost/myapp
